@@ -111,7 +111,7 @@ TextureImporter:
       213: 8158561906585921546
     second: PlayerSheet_35
   externalObjects: {}
-  serializedVersion: 10
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -131,6 +131,8 @@ TextureImporter:
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -140,8 +142,8 @@ TextureImporter:
   textureSettings:
     serializedVersion: 2
     filterMode: 0
-    aniso: -1
-    mipBias: -100
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -162,9 +164,14 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -180,6 +187,18 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -959,6 +978,43 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      PlayerSheet_0: -2273262987894464175
+      PlayerSheet_1: -8348016747007819476
+      PlayerSheet_10: 6700423760998985612
+      PlayerSheet_11: -8043958568527013971
+      PlayerSheet_12: 1669469482060702276
+      PlayerSheet_13: 1118642482974434133
+      PlayerSheet_14: 7403079152156433754
+      PlayerSheet_15: 724422300144628181
+      PlayerSheet_16: -2743468169375247853
+      PlayerSheet_17: 3906517477132223184
+      PlayerSheet_18: 9168824694763364499
+      PlayerSheet_19: -7933338735522678928
+      PlayerSheet_2: 8113368496836147963
+      PlayerSheet_20: -5149129607194351882
+      PlayerSheet_21: 8427836745426372490
+      PlayerSheet_22: 1751312006897510990
+      PlayerSheet_23: -9073200009514084869
+      PlayerSheet_24: -6033619838194342215
+      PlayerSheet_25: 3316993520736528115
+      PlayerSheet_26: -5710942945440211458
+      PlayerSheet_27: 1088275711033388842
+      PlayerSheet_28: -8381325456585054715
+      PlayerSheet_29: 6893105578746733385
+      PlayerSheet_3: 3871034404151536601
+      PlayerSheet_30: 6574421961511360539
+      PlayerSheet_31: -4799376263540030767
+      PlayerSheet_32: 2001570285269250473
+      PlayerSheet_33: -4017171434636976061
+      PlayerSheet_34: -8606704807831271697
+      PlayerSheet_35: 8158561906585921546
+      PlayerSheet_4: -1410163375985073761
+      PlayerSheet_5: 4141560478706699254
+      PlayerSheet_6: -9109787565581802862
+      PlayerSheet_7: -2338228917321944555
+      PlayerSheet_8: 4828674790627598971
+      PlayerSheet_9: -4811918958777200042
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
